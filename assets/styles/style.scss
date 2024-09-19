@@ -1,0 +1,32 @@
+body * {
+  color: white !important;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #e4e4e4 !important;
+  }
+}
+
+.popup-enter-active,
+.popup-leave-active {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.popup-enter-from,
+.popup-leave-to {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.v-divider {
+  border-color: black;
+  opacity: 0.3 !important;
+}
