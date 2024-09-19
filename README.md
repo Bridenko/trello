@@ -1,9 +1,14 @@
-# Запуск проекту 
+# Project launch
 
+```bash
 git clone https://github.com/Bridenko/trello.git
 cd trello
 npm i
 nuxt dev
+```
+
+
+
 
 # Nuxt 3 Minimal Starter
 
